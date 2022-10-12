@@ -1,0 +1,34 @@
+/*section ====================================================*/
+.page-work{
+  height: 1004px;
+  background: #EEEFF1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*section-container================================================*/
+.page-work__container{
+  max-width: 1110px;
+  margin: opx auto;
+  padding-top: 100px;
+  margin-bottom: 57px;
+}
+/*container images===================================================*/
+.page-work__images-container{
+  position: relative;
+}
+/*position second images=============================================================*/
+.page-work__image-code{
+  position: relative;
+  right: 50px;
+  width: 1110px;
+  height: 600px;
+}
+.page-work__image-play{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top:42%;
+  left:46%;
+  z-index: 3;
+}

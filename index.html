@@ -1,15 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <script src="/main .js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
 
-  <script src="/index.js"></script>
-</body>
+    <!--connecting style file-->
+    <link rel="stylesheet" href="/styles/main.css" />
+    <!--connecting font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>About me</title>
+  </head>
+   <body>
+    <!--beginning of the design and layout section-------------------------------------------------->
+    <section class="page-design">
+      <!--container header-->
+      <header class="page-design__header">
+        <div class="page-design__header-wrapper">
+          <!--container logo-->
+          <div class="page-design__logo-container">
+            <img
+              class="page-design__logo-image"
+              src="/image/page_design/logoWD.png"
+              alt="logo"
+            />
+          </div>
+          <!--container menu with links------------------------------------------->
+          <nav class="page-design__links-container">
+            <a
+              href="#"
+              class="page-design__link-item page-design__link-item--active"
+              >ГЛАВНАЯ</a
+            >
+            <a href="#" class="page-design__link-item">ОБ АВТОРЕ</a>
+            <a href="#" class="page-design__link-item">РАБОТЫ</a>
+            <a href="#" class="page-design__link-item">ПРОЦЕСС</a>
+            <a href="#" class="page-design__link-item">КОНТАКТЫ</a>
+          </nav>
+        </div>
+      </header>
+      <!--wrapper main block with image title text button------------------------------>
+      <main class="page-design__contents-wrapper">
+        <!--container image-->
+        <div class="page-design__image-container">
+          <img
+            src="/image/page_design/frameNoteBook.png"
+            alt="image"
+            class="page-design__image"
+          />
+        </div>
+        <!--container block with content and button--------------------------->
+        <div class="page-design__content-block">
+          <!--title h1-->
+          <h1 class="page-design__title">Дизайн и верстка</h1>
+          <!--text------------------------------------------------------->
+          <p class="page-design__text">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br />
+            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов<br />
+            на латинице с начала XVI века.
+          </p>
+          <!--button---------------------------------------------->
+          <button class="page-design__button" type="button">
+            НАПИСАТЬ МНЕ
+          </button>
+        </div>
+      </main>
+    </section>
+    <!--section about_me--------------------------------------------------------------->
+
+    <!--section about_me--------------------------------------------------------------->
+    <section class="page-about">
+      <!--wrapper section about_me------------------------------------------>
+      <div class="page-about__wrapper">
+        <!--container with title h2 and text------------------------------------>
+        <div class="page-about__text-container text-title-repeat">
+          <h2 class="page-about__title title-repeat ">Обо мне</h2>
+          <p class="page-about__text text-repeat">Lorem Ipsum - это текст-"рыба", 
+            часто используемый в 
+            печати и<br/> вэб-дизайне. Lorem Ipsum является стандартной 
+            "рыбой" для текстов<br/> на латинице с начала XVI века.
+          </p>
+        </div>
+        <!--container with blue band and six images----------------------------------->
+        <div class="page-about__blue-band-container">
+          <!--container for images--------------------------------->
+          <div class="page-about__image-container">
+            <img src="/image/page_about_me/item.png" alt="image" class="page-about__image">
+            <img src="/image/page_about_me/item.png" alt="image" class="page-about__image">
+            <img src="/image/page_about_me/item.png" alt="image" class="page-about__image">
+            <img src="/image/page_about_me/item.png" alt="image" class="page-about__image">
+            <img src="/image/page_about_me/item.png" alt="image" class="page-about__image">
+            <img src="/image/page_about_me/item.png" alt="image" class="page-about__image">
+          </div>
+        </div>
+        <!--container with my skills-------------------------------------------->
+        <main class="page-about__content-container">
+          <div class="page-about__skills-container">
+            <!--title my skills--------------------------------->
+            <h3 class="page-about__title">Мои навыки</h3>
+            <!--first block text and blue/grey line-->
+            <div class="page-about__line-container">
+              <p class="page-about__text">Adobe Photoshop</p>
+              <div class="page-about__blue-line"></div>
+              <div class="page-about__grey-line"></div>
+            </div>
+            <!--second block text and blue/grey line-->
+            <div class="page-about__line-container">
+              <p class="page-about__text">Adobe Photoshop</p>
+              <div class="page-about__blue-line"></div>
+              <div class="page-about__grey-line"></div>
+            </div>
+            <!--third block text and blue/grey line-->
+            <div class="page-about__line-container">
+              <p class="page-about__text">Adobe Photoshop</p>
+              <div class="page-about__blue-line"></div>
+              <div class="page-about__grey-line"></div>
+            </div>
+          </div>
+          <div class="page-about__photo-container">
+            <img src="/image/page_about_me/photoMan.png" 
+            class="page-about__photo" alt="photo">
+          </div>
+        </main>
+      </div>
+    </section>
+    <!--section how i work=========================================================================-->
+    <!--====================================================================================-->
+    <section class="page-work">
+      <!--container contents=======================================-->
+      <div class="page-work__container">
+        <div class="page-work__text-container text-title-repeat">
+          <h2 class="page-work__title title-repeat ">Как я работаю</h2>
+          <p class="page-work__text text-repeat">Lorem Ipsum - это текст-"рыба", 
+            часто используемый в 
+            печати и<br/> вэб-дизайне. Lorem Ipsum является стандартной 
+            "рыбой" для текстов<br/> на латинице с начала XVI века.
+          </p>
+        </div>
+      </div>
+      <div class="page-work__images-container">
+        <img src="/image/page_how_i_work/buttonPlay.png" class="page-work__image-play" alt="button">
+        <img src="/image/page_how_i_work/pictWithCode.png" class="page-work__image-code" alt="work">
+      </div>
+    </section>
+    <!--section with photo=========================================================-->
+    <!--====================================================================================-->
+    <section class="page-photo">
+      <!--container 8 photo---------------------------------------------->
+      <div class="page-photo__container">
+        <!-- first 1column--------------------------------------->
+        <div class="page-photo__column-images-1 ">
+          <img src="/image/page_with_photo/overlayEye.png" alt="logo" class="page-photo__logo">
+          <div class="page-photo__logo-bg1">
+            <img src="/image/page_with_photo/pictStickers.png" alt="photo" class="page-photo__photo">
+          </div>
+          
+        </div>
+        <!--second 2 clumn------------------------------------------>
+          <div class="page-photo__column-images-2">
+            <img src="/image/page_with_photo/overlayEye.png" alt="logo" class="page-photo__logo">
+            <div class="page-photo__logo-bg2">
+              <img src="/image/page_with_photo/pictNoteWithPeople.png" alt="photo" class="page-photo__photo">
+            </div>
+        </div>
+        <div class="page-photo__column-images-3 ">
+          <img src="/image/page_with_photo/overlayEye.png" alt="logo" class="page-photo__logo">
+          <div class="page-photo__logo-bg3">
+            <img src="/image/page_with_photo/pictStickers.png" alt="photo" class="page-photo__photo">
+          </div>
+        </div>
+        <div class="page-photo__column-images-4 ">
+          <img src="/image/page_with_photo/overlayEye.png" alt="logo" class="page-photo__logo">
+          <div class="page-photo__logo-bg4">
+            <img src="/image/page_with_photo/pictNoteWithPeople.png" alt="photo" class="page-photo__photo">
+          </div>
+        </div>
+        <div class="page-photo__column-images-5 ">
+          <img src="/image/page_with_photo/overlayEye.png" alt="logo" class="page-photo__logo">
+          <div class="page-photo__logo-bg5">
+          <img src="/image/page_with_photo/pictNoteWithPeople.png" alt="photo" class="page-photo__photo">
+          </div>
+        </div>
+        <div class="page-photo__column-images-6 ">
+          <img src="/image/page_with_photo/overlayEye.png" alt="logo" class="page-photo__logo">
+          <div class="page-photo__logo-bg6">
+          <img src="/image/page_with_photo/pictStickers.png" alt="photo" class="page-photo__photo">
+          </div>
+        </div>
+        <div class="page-photo__column-images-7 ">
+          <img src="/image/page_with_photo/overlayEye.png" alt="logo" class="page-photo__logo">
+          <div class="page-photo__logo-bg7">
+          <img src="/image/page_with_photo/pictNoteWithPeople.png" alt="photo" class="page-photo__photo">
+          </div>
+        </div>
+        <div class="page-photo__column-images-8 ">
+          <img src="/image/page_with_photo/overlayEye.png" alt="logo" class="page-photo__logo">
+          <div class="page-photo__logo-bg8">
+          <img src="/image/page_with_photo/pictStickers.png" alt="photo" class="page-photo__photo">
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+    <script src="main .js"></script>
+  </body>
 </html>
