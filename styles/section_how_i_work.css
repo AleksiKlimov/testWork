@@ -1,34 +1,34 @@
 /*section ====================================================*/
-.page-work{
+.work-section {
   height: 1004px;
-  background: #EEEFF1;
+  background: #eeeff1;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 /*section-container================================================*/
-.page-work__container{
+.work-section__container {
   max-width: 1110px;
   margin: opx auto;
   padding-top: 100px;
   margin-bottom: 57px;
 }
 /*container images===================================================*/
-.page-work__images-container{
+.work-section__images-container {
   position: relative;
 }
 /*position second images=============================================================*/
-.page-work__image-code{
+.work-section__image-code {
   position: relative;
   right: 50px;
   width: 1110px;
   height: 600px;
 }
-.page-work__image-play{
+.work-section__image-play {
   width: 100px;
   height: 100px;
   position: relative;
-  top:42%;
-  left:46%;
+  top: 42%;
+  left: 46%;
   z-index: 3;
 }

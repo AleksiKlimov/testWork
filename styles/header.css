@@ -1,0 +1,46 @@
+/*container header===================================================*/
+.page-header__header {
+  background-color: #eeeff1;
+  padding-top: 50px;
+  margin: 0px auto;
+  padding-bottom: 161px;
+}
+/*wrapper header logo with menu nav===================================*/
+.page-header__header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*container logo================================================*/
+.page-header__logo-container {
+  max-width: 96px;
+  height: 60px;
+  margin-right: 398px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*container menu with links===============================================*/
+.page-header__links-container {
+  white-space: nowrap;
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  max-width: 611px;
+}
+/*style links================================================================*/
+.page-header__link-item {
+  margin-right: 42px;
+  color: #000000;
+}
+/*style active links==========================================*/
+.page-header__link-item--active {
+  color: #34547a;
+}
+
+/*last <a/> tag with menu==============================================*/
+.page-header__links-container :last-child {
+  margin-right: 0px;
+}

@@ -1,10 +1,11 @@
 /*=====connecting style files=================================================*/
-@import url(/styles/page_design.css);
-@import url(/styles/page_about_me.css);
-@import url(/styles/page_how_i_work.css);
-@import url(/styles/page_with_photo.css);
-@import url(/styles/footer.css);
-@import url(/styles/nullstyle.css);
+@import url(./section_design.css);
+@import url(./section_about_me.css);
+@import url(./section_how_i_work.css);
+@import url(./section_with_photo.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./nullstyle.css);
 /* attaching a font to a layout=====================================*/
 body {
   font-family: Roboto;
