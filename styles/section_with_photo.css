@@ -1,21 +1,13 @@
+/*section with 8 photo=============================================*/
 .photo-section {
   height: 1016px;
   background: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.photo-section__photo {
-  width: 480px;
-  height: 480px;
-}
-
-.photo-section__logo {
-  position: relative;
-  top: 55%;
-  left: 43%;
-}
-
+/*container with 8 blocks photo with logos==================================================*/
 .photo-section__container {
-  max-width: 1920px;
   display: grid;
   grid-template-areas:
     "A B C D"
@@ -24,37 +16,61 @@
 
 .photo-section__column-images-1 {
   grid-area: A;
-  height: 480px;
 }
 .photo-section__column-images-2 {
   grid-area: B;
-  height: 480px;
 }
 .photo-section__column-images-3 {
   grid-area: C;
-  height: 480px;
 }
 .photo-section__column-images-4 {
   grid-area: D;
-  height: 480px;
 }
 .photo-section__column-images-5 {
   grid-area: E;
-  height: 480px;
 }
 .photo-section__column-images-6 {
   grid-area: F;
-  height: 480px;
 }
 .photo-section__column-images-7 {
   grid-area: G;
-  height: 480px;
 }
 .photo-section__column-images-8 {
   grid-area: H;
+}
+
+.photo-block {
+  position: relative;
+  width: 480px;
   height: 480px;
 }
 
-.photo-section__logo-bg1 {
+.photo-section__logo {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.photo-section__photo {
+  position: absolute;
+  z-index: 1;
+  width: inherit;
+  height: inherit;
+}
+
+.photo-block::after {
+  position: absolute;
+  z-index: 0;
+  width: 480px;
+  height: 480px;
+  content: url("");
   background-color: rgba(52, 84, 122, 0.8);
+}
+
+.photo-block:hover::after {
+  z-index: 1;
+}
+.photo-block:hover .photo-section__logo {
+  z-index: 3;
 }

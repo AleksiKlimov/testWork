@@ -6,6 +6,7 @@
 @import url(./header.css);
 @import url(./footer.css);
 @import url(./nullstyle.css);
+@import url(./section_with_form.css);
 /* attaching a font to a layout=====================================*/
 body {
   font-family: Roboto;

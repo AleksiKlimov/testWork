@@ -1,0 +1,27 @@
+.page-footer {
+  height: 151px;
+  background: #34547a;
+}
+.page-footer__container {
+  margin: 0px auto;
+  max-width: 1125px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 58px;
+}
+.page-footer__text {
+  display: flex;
+  flex-direction: column;
+}
+.page-footer__text :first-child {
+  font-weight: 500;
+  font-size: 21px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.page-footer__text :last-child {
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+}
