@@ -1,0 +1,12 @@
+@media (min-width: 320px) and (max-width: 1279px) {
+  .design-section__image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .design-section__image {
+    display: block;
+    max-width: 298px;
+    max-height: 195px;
+    margin-bottom: 51px;
+  }
+}

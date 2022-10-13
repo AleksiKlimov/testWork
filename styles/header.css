@@ -42,3 +42,6 @@
 .page-header__links-container :last-child {
   margin-right: 0px;
 }
+
+@media (min-width: 320px) and (max-width: 1279px) {
+}
