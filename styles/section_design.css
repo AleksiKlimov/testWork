@@ -3,7 +3,6 @@
   background-color: #eeeff1;
   height: 700px;
 }
-
 /*wrapper main block with image title text button===================================*/
 .design-section__contents-wrapper {
   max-width: 1105px;
@@ -17,8 +16,6 @@
 .design-section__image-container {
   margin-right: 143.1px;
 }
-/*image ==============================================================*/
-
 /*container block with content and button=======================================*/
 .design-section__content-block {
   display: flex;

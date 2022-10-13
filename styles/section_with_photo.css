@@ -13,7 +13,6 @@
     "A B C D"
     "E F G H";
 }
-
 .photo-section__column-images-1 {
   grid-area: A;
 }
@@ -38,13 +37,11 @@
 .photo-section__column-images-8 {
   grid-area: H;
 }
-
 .photo-block {
   position: relative;
   width: 480px;
   height: 480px;
 }
-
 .photo-section__logo {
   position: absolute;
   z-index: 0;
@@ -58,7 +55,6 @@
   width: inherit;
   height: inherit;
 }
-
 .photo-block::after {
   position: absolute;
   z-index: 0;
@@ -67,7 +63,6 @@
   content: url("");
   background-color: rgba(52, 84, 122, 0.8);
 }
-
 .photo-block:hover::after {
   z-index: 1;
 }
