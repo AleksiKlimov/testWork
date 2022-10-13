@@ -24,3 +24,9 @@
   font-size: 13px;
   color: #ffffff;
 }
+.page-footer__image {
+  margin-right: 21.87px;
+}
+.page-footer__images :last-child {
+  margin-right: 0px;
+}
