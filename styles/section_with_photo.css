@@ -81,8 +81,8 @@
     display: grid;
     grid-template-areas:
       "A B"
-      "C D"
-      "E F"
+      "D C"
+      "F E"
       "G H";
   }
 
