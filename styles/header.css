@@ -44,4 +44,31 @@
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {
+  .page-header__links-container {
+    display: none;
+  }
+  .page-header__header {
+    background: #e5e5e5;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .page-header__header-wrapper {
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-top: 22px;
+    padding-left: 19px;
+    padding-bottom: 67px;
+  }
+  .page-header__logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    max-width: 96px;
+    height: 60px;
+  }
 }

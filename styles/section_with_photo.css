@@ -60,7 +60,7 @@
   z-index: 0;
   width: 480px;
   height: 480px;
-  content: url("");
+  content: "";
   background-color: rgba(52, 84, 122, 0.8);
 }
 .photo-block:hover::after {
@@ -68,4 +68,31 @@
 }
 .photo-block:hover .photo-section__logo {
   z-index: 3;
+}
+
+@media (min-width: 320px) and (max-width: 1279px) {
+  .photo-section {
+    height: initial;
+    margin-top: 34px;
+    margin-bottom: 34px;
+  }
+
+  .photo-section__container {
+    display: grid;
+    grid-template-areas:
+      "A B"
+      "C D"
+      "E F"
+      "G H";
+  }
+
+  .photo-block {
+    position: relative;
+    width: 188px;
+    height: 188px;
+  }
+  .photo-block::after {
+    width: 188px;
+    height: 188px;
+  }
 }
