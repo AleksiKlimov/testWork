@@ -127,6 +127,7 @@
     margin: 0px;
     padding: 0px;
     max-width: 375px;
+    min-width: 370px;
   }
   .about-section__image-container :nth-child(even) {
     margin-left: 57px;
