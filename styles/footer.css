@@ -1,5 +1,4 @@
 .page-footer {
-  height: 151px;
   background: #34547a;
 }
 .page-footer__container {
@@ -12,6 +11,7 @@
 .page-footer__text {
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 .page-footer__text :first-child {
   font-weight: 500;

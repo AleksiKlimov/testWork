@@ -1,6 +1,5 @@
 .form-section {
   background: #eeeff1;
-  height: 762px;
 }
 .form-section__wrapper {
   display: flex;
@@ -42,11 +41,11 @@
   margin: 0px auto;
   width: 190px;
   height: 55px;
+  margin-bottom: 100px;
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {
   .form-section {
-    height: initial;
   }
   .form-section__title {
   }
@@ -75,6 +74,6 @@
     margin-bottom: 22px;
   }
   .form-section__form-container {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
 }
