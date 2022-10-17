@@ -31,9 +31,6 @@
   padding-top: 100px;
   padding-bottom: 100px;
   background: #34547a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .about-section__text-container {
   display: flex;
@@ -44,13 +41,39 @@
 }
 .about-section__image-container {
   max-width: 1150px;
+  margin: 0px auto;
+  display: flex;
 }
+.about-section__block-image {
+  max-width: 141px;
+  height: 50px;
+  margin-right: 50px;
+  display: flex;
+}
+.about-section__block-counter {
+}
+.about-section__block-counter :first-child {
+  padding-top: 3px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.about-section__block-counter :last-child {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
 .about-section__image {
-  margin-right: 49px;
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
 }
-.about-section__blue-band-container :last-child {
-  margin-right: 0px;
-}
+
 /*my skils and photo ===========================================================*/
 .about-section__content-container {
   max-width: 1150px;
@@ -65,7 +88,7 @@
   margin-right: 150px;
 }
 .about-section__skills-container :last-child {
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
 }
 .about-section__title {
 }
@@ -90,20 +113,17 @@
 }
 
 .about-section__blue-line {
-  display: inline-block;
   background: #34547a;
   height: 4px;
-  width: 350px;
-  margin-right: -5px;
+  max-width: 80%;
 }
 .about-section__grey-line {
-  display: inline-block;
   background: #c4c4c4;
   height: 4px;
-  width: 95.64px;
+  width: 445px;
+  margin-bottom: 30px;
 }
 .about-section__line-container {
-  margin-bottom: 30px;
 }
 /*photo container=================================*/
 .about-section__photo {
@@ -131,7 +151,6 @@
   }
   .about-section__image-container {
     height: inherit;
-
     flex-wrap: wrap;
     margin: 0px;
     padding: 0px;

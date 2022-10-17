@@ -41,7 +41,7 @@
 }
 /*button =========================================================*/
 .design-section__button {
-  padding: 25px 41px;
+  padding: 24px 42px;
 }
 .button-repeat {
   font-weight: 400;
@@ -57,14 +57,13 @@
     background: #e5e5e5;
     margin: 0px;
     padding: 0px;
+    padding-bottom: 95px;
   }
   .design-section__contents-wrapper {
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
-    position: relative;
-    left: 0px;
   }
 
   .design-section__image-container {
@@ -87,22 +86,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 95px;
   }
   .design-section__title {
     display: block;
     margin: 0px;
     padding: 0px;
-    width: 302px;
     font-weight: 500;
     font-size: 36px;
-    margin-bottom: 40px;
+    margin-bottom: 44px;
+    line-height: 36px;
   }
   .design-section__text {
     display: block;
     margin: 0px;
     padding: 0px;
-    max-width: 322px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
