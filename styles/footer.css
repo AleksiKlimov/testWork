@@ -33,7 +33,6 @@
 
 @media (min-width: 320px) and (max-width: 1279px) {
   .page-footer {
-    height: 210px;
   }
   .page-footer__container {
     display: flex;
@@ -47,5 +46,8 @@
   }
   .page-footer__text {
     margin-bottom: 40px;
+  }
+  .page-footer__images {
+    margin-bottom: 50px;
   }
 }
