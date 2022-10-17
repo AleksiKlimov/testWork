@@ -46,8 +46,10 @@
 
 @media (min-width: 320px) and (max-width: 1279px) {
   .form-section {
+    background: #e5e5e5;
   }
   .form-section__title {
+    margin-bottom: 34px;
   }
   .form-section__text {
     width: 322px;
@@ -59,7 +61,6 @@
   .form-section__input-block {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
   }
   .form-section__input-textarea {
@@ -72,8 +73,5 @@
   .form-section__input-text {
     margin-right: 0px;
     margin-bottom: 22px;
-  }
-  .form-section__form-container {
-    /* margin-bottom: 100px; */
   }
 }

@@ -31,7 +31,6 @@
   align-items: center;
 }
 .about-section__text-container {
-  /* height: 366px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
