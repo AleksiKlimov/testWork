@@ -1,21 +1,23 @@
 /*container header===================================================*/
 .page-header__header {
   background-color: #eeeff1;
-  padding-top: 50px;
+  padding-top: 57px;
   margin: 0px auto;
   padding-bottom: 161px;
 }
 /*wrapper header logo with menu nav===================================*/
 .page-header__header-wrapper {
+  max-width: 1150px;
+  margin: 0px auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 /*container logo================================================*/
 .page-header__logo-container {
   max-width: 96px;
   height: 60px;
-  margin-right: 398px;
+  margin-right: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +29,6 @@
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.1em;
-  max-width: 611px;
 }
 /*style links================================================================*/
 .page-header__link-item {
