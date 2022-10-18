@@ -51,7 +51,6 @@
     margin-bottom: 34px;
   }
   .work-section__text {
-    width: 323px;
   }
   .work-section__images-container {
     position: relative;
@@ -75,7 +74,7 @@
     position: absolute;
     max-width: 75px;
     max-height: 75px;
-    top: 50px;
-    left: 38%;
+    top: 50%;
+    left: 50%;
   }
 }
